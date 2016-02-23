@@ -20,6 +20,10 @@ public class Perro {
        this.vida = true;
    }
 
+    public Perro(String nombre) {
+        this.nombre = nombre;
+    }
+   
    public String getNombre(){
        return this.nombre;
    }
